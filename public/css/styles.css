@@ -1,0 +1,91 @@
+body{
+background-color: #f4f7f7;
+line-height: 1.5;
+font-size: 18px;
+text-align: center;
+padding: 1%;
+
+}
+
+#titlebar{
+    background-color: #1989ac;
+    padding: 1%;
+}
+.navbar-brand{
+    margin-bottom: 5%;
+    
+}
+.navbar-brand a {
+    text-align: center;
+}
+
+.container-fluid {
+line-height: 1.5;
+padding: 1%;
+margin-left: 10%;
+margin-right: 10%;
+text-align: center;
+}
+/* .form-signin {
+    padding-top: 15%;
+    margin: auto;
+} */
+h3{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+hr{
+    border: dotted #def4f0;
+    border-bottom: none;
+    width: 50%;
+    margin: 20px auto;
+}
+.container-apply{
+    text-align: left;
+}
+.container-fluid{
+    width: 200px;
+
+}
+.form-signin {
+    width: 250%;
+}
+/* .btn-s{
+    border-radius: 10px;
+   
+} */
+/* .btn{
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 10px;
+  
+} */
+
+.paragraph{
+    text-align: justify;
+    padding: 7 1%;
+}
+.apply {
+    text-align: left;
+    padding: 1%;
+}
+
+.row{
+    margin-left: 1%;
+}
+
+.social-icon li{
+   text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin: 2%;
+   text-align: center;
+}
+
+.footbar {
+    background-color: #18171b;
+    text-align: center;
+    color:#fff;
+   padding:  2%;
+}

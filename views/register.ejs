@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- font -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+    <!-- css -->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="js/bootstrap.js"></script>
+    <title>Registeration</title>
+</head>
+
+<body>
+    <!-- the navigation bar -->
+    <section id="titlebar">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div>
+                <a class="navbar-brand" href="/">
+                    ID CARD GENERATING SYSTEM
+            </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarItems"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarItems">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="apply">New Account</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <br>
+
+    <!-- registeration form section -->
+    <section class="container-apply">
+        <h3 class="apply">Please Sign Up here</h3>
+        <form action="/register" method="post">
+            <div class="row">
+                <div class="col-md-3 ">
+                    <label for="firstName">First name</label>
+                    <input type="text" class="form-control form-control-sm" name="firstName" placeholder="First name"
+                        value="" required="">
+                </div>
+
+                <div class="col-md-3 ">
+                    <label>Middle name</label>
+                    <input type="text" class="form-control form-control-sm" name="middleName" placeholder="Middle Name"
+                        value="" required="">
+                </div>
+
+                <div class="col-md-3">
+                    <label>Last name</label>
+                    <input type="text" class="form-control form-control-sm" name="lastName" placeholder="Last Name"
+                        value="" required="">
+                </div>
+                <div class="col-md-3">
+                    <label>Date of Birth</label>
+                    <input type="text" class="form-control form-control-sm" name="dob" placeholder="eg: 12 - Jan- 1999"
+                        value="" required="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <label for="gender">Gender</label>
+                    <select class="form-control form-control-sm" name="gender">
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </div>
+
+
+                <div class=" col-lg-6 ">
+                    <label for="email">Email </label>
+                    <input type="email" class="form-control form-control-sm" name="email" placeholder="you@example.com">
+                </div>
+
+                <div class="col-lg-4">
+                    <label for="phoneno">phone</label>
+                    <input type="text" class="form-control form-control-sm" name="phone" placeholder="Phone NUmber"
+                        value="" required="">
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control form-control-sm" name="address" placeholder="Address"
+                        value="" required="">
+                </div>
+
+                <div class="form-group col-lg-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" name="city">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-lg-4">
+                    <label for="inputCity">State</label>
+                    <input type="text" class="form-control" name="state">
+                </div>
+
+                <div class="form-group col-lg-3">
+                    <label for="exampleFormControlFile1">Passport</label>
+                    <input type="file" class="form-control-file" name="img">
+                </div>
+                <div class="col-lg-3">
+                    <br>
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+            </div>
+
+        </form>
+    </section>
+    <hr>
+    <footer class="footbar">
+        <div class="social-icon">
+            <ul class="icon">
+                <li><a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a> </li>
+                <li> <a href="mailto:onemmanuel4chrsit@gmail.com"><i class="fas fa-envelope fa-2x"></i></a> </li>
+            </ul>
+        </div>
+        <p class="copyright">© 2020 Onyekachi Emmanuel Onuoha.</p>
+    </footer>
+</body>
+
+</html>
